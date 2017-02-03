@@ -1,0 +1,42 @@
+Ryan Holwerda
+CS342
+Guide 1
+
+Work through the following materials, recording answers to the questions so that you can bring them to class and submit them for review.
+
+Chapter 1:
+
+Compare and contrast data, databases, database (management) systems and information systems.
+	Data: recordable facts
+	Databases: collection of related data
+	Database systems: computer system for creating and maintaining databases
+	Information systems: Using database systems to bring value to an organization.
+
+Compare and contrast database systems with the following, using the main characteristics of the database approach in your discussion.
+- data structures and algorithms
+	Data structures are used in the context of creating programs, whereas the data stored by a database systems isn't necessarily tied to a program. In addition, the data in data structures
+	often isn't self-describing like the data stored by a database system.
+
+- traditional file systems
+	Traditional file systems store a wide variety of data, like a database system, but a database orders its data by rows and columns, whereas a file system is designed as a heirarchy.
+
+Identify the stakeholders of database systems.
+	Stakeholders of database systems include company managers (eg. CIO), sophisticated end users (eg. scientists, engineers, business analysts, etc.), and "naive end users" (internet data searches).
+
+Chapter 2:
+
+Explain the significance of the categories of data models. Which type of model is displayed in Figure 2.1?
+	High-end data models are ideal for end users, as they are the least technical and the easiest to understand. Low-end data models are ideal for
+	people designing databases with the technical aspects in mind. Relational data models are a union of high and low-end data models, getting close to the technical aspects of databases
+	while still staying accessable to technically inexperienced users. Figure 2.1 is an example of a relational data model. 
+
+Explain the structure and significance of the three-schema architecture.
+	The internal level uses a low-level data model to describe the data storage in full detail. The conceptual level uses a relational data model to focus on "entities, 
+	data types, relationships, user operations, and constraints." The external level is split into multiple 'external views' that display certain parts of a database to some users 
+	while hiding the rest. These external views are often implemented with a relational data model. The three-schema architecture helps visualize the the overall schema of a database system. 
+
+Explain the tiers used in a typical web-based information system.
+	The three tiers used in a web-based information system are the client tier, the application tier, and the database server tier. The client tier is the user machine accessing the 
+	information system. The database server tier provides the API which in turn allows for access to the (often SQL) database holding the requested data. The application tier sits in 
+	between the client and database server tiers by taking requests from the client tier, checking the client's credentials, sending the request to the database server tier if the 
+	client's credentials are good, and then sending data from the database tier back to the client.
