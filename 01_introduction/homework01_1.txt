@@ -1,0 +1,6 @@
+a)	The columns that would need to be changed are the Course_number columns in the COURSE, SECTION, and 
+PREREQUISITE tables, as well as the Major column in the STUDENT table, the Department column in the
+COURSE table, and the Prerequisite_number column in the PREREQUISITE table. 
+b)	It's not possible to only change one field. At the very least, you'd need to have both the COURSE and
+the PREREQUISITE tables in order to keep track of more than one prerequisite per course. As both those tables
+need the Course_number column, you'd have to change it in both tables. 

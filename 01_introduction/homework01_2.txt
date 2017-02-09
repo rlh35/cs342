@@ -1,0 +1,15 @@
+COLLEGE
+School_ID  |  School_Name
+
+COURSE
+Course_ID  |  School_ID  |  Term  |  Section_ID
+
+SECTION
+Course_ID  |  Section_ID  |  Days**  |  Start_time  |  End_time  |  Instructor
+** i.e. MWF, TTH, etc.
+
+STUDENT
+User_name  |  Password  |  Student_ID  |  First_name  |  Last_name
+
+STUDENTSCHEDULE
+Student_ID  |  Schedule_ID  |  Schedule_name
