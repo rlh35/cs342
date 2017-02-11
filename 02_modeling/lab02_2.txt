@@ -1,0 +1,8 @@
+2.2 a
+Yes, its possible. The constraint would be: 
+ALTER TABLE Movie ADD CONSTRAINT enough_votes CHECK (score IS NULL OR votes > 1000);
+
+2.2 b
+If a business has special deals based on customer age (i.e. kids under 12, senior citizens)
+that occur infrequently, it would be helpful to be able to add and remove constraints
+regarding the deal when needed. 
